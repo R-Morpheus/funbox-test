@@ -1,0 +1,20 @@
+
+.header__container{
+    box-sizing: border-box;
+    margin-rigt: 80px;
+
+}
+.h1__disabled{
+    font-size: 48px;
+    margin: 0 22px 0 0;
+    color: #B3B3B3;
+
+}
+h1{
+    font-size: 48px;
+    margin: 0 22px 0 0;
+}
+h2{
+    font-size: 24px;
+    margin: 0 0 15px 0;
+}

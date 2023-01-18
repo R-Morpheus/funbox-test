@@ -1,0 +1,25 @@
+.gift__container{
+    margin-bottom: 29px ;
+}
+
+.gift__description{
+    color: #666666;
+    font-size: 16px;
+    margin-right:110px;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+
+.gift__container__disabled{
+    margin-bottom: 20px
+}
+
+.gift__description__disabled{
+    color: #B3B3B3;
+    font-size: 16px;
+    margin-right:110px;
+    margin-left: 40px;
+    text-align: left;
+    flex-wrap: wrap;
+}

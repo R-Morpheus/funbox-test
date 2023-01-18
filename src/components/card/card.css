@@ -1,0 +1,149 @@
+
+div{
+    font-family: "Trebuchet MS";
+}
+.card__container{
+    margin: 36px 0 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1024px){
+    .card__container{
+        margin: 36px 0 0 30px;
+    }
+}
+
+@media (max-width: 472px){
+    .card__container{
+        margin: 64px 40px;
+    }
+}
+
+
+
+.card__border{
+    position: relative;
+    width: 328px;
+    height: 488px;
+    background-color: #2ea8e6;
+    border-radius: 14px;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+.card{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 320px;
+    height: 480px;
+    background-color: #f2f2f2;
+    border-radius: 11px;
+    clip-path: polygon(14.7% 0, 100% 0, 100% 100%, 0 100%, 0 9.7%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card__border__red{
+    position: relative;
+    width: 328px;
+    height: 488px;
+    background-color: #2ea8e6;
+    border-radius: 14px;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+
+.card__border__red{
+    position: relative;
+    width: 328px;
+    height: 488px;
+    background-color: #D91667;
+    border-radius: 14px;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+
+.card__disabled{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 320px;
+    height: 480px;
+    background-color: #f2f2f2;
+    border-radius: 11px;
+    clip-path: polygon(14.7% 0, 100% 0, 100% 100%, 0 100%, 0 9.7%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow:1px 1px 100px 100px rgba(0,0,0,0.07)inset;
+    -webkit-box-shadow:1px 1px 100px 100px rgba(0,0,0,0.07)inset;
+    -moz-box-shadow:1px 1px 100px 100px rgba(0,0,0,0.07)inset;
+}
+
+.card__border__disabled{
+    position: relative;
+    width: 328px;
+    height: 488px;
+    background-color: #B3B3B3;
+    border-radius: 14px;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+
+.card__header{
+    color: #666666;
+    font-size: 16px;
+    margin: 21px 64px 5px 38px;
+    width: 205px;
+    white-space: nowrap;
+
+}
+.card__header__disabled{
+    color: #B3B3B3;
+    font-size: 16px;
+    margin: 21px 64px 5px 38px;
+    width: 205px;
+    white-space: nowrap;
+
+}
+
+img{
+    border-radius: 12px;
+}
+
+.description__disabled{
+    font-size: 13px;
+    color: #FFFF66;
+    text-align: center;
+    margin-top: 14px ;
+}
+
+.description{
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 14px ;
+}
+
+a{
+    color: #22A7E9;
+    text-decoration: none;
+    border-bottom: 1px dashed #22A7E9;
+}
+a:hover {
+    color: #f00000;
+}
+
+
+

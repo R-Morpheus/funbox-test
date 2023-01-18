@@ -1,0 +1,58 @@
+.circle{
+    width: 80px;
+    height: 80px;
+    clip-path: circle(50% at 50% 50%);
+    background: #1698D9;
+    position: absolute;
+    left: 70%;
+    right: 5%;
+    top: 75.44%;
+    bottom: 8.84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle__red{
+    width: 80px;
+    height: 80px;
+    clip-path: circle(50% at 50% 50%);
+    background: #D91667;
+    position: absolute;
+    left: 70%;
+    right: 5%;
+    top: 75.44%;
+    bottom: 8.84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle__disabled{
+    width: 80px;
+    height: 80px;
+    clip-path: circle(50% at 50% 50%);
+    background: #B3B3B3;
+    position: absolute;
+    left: 70%;
+    right: 5%;
+    top: 75.44%;
+    bottom: 8.84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle__description{
+    font-size: 42px;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.circle__description__kg{
+    margin: 0;
+    font-size: 21px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
