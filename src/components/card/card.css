@@ -98,7 +98,6 @@ div{
     align-items: center;
     flex-direction: column;
     position: relative;
-    cursor: pointer;
 }
 
 .card__header{
