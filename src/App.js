@@ -5,10 +5,10 @@ import {cardList} from "./components/store/data";
 function App() {
   return (
     <div className="App">
-      <div className='header'>
-        <h1>Ты сегодня покормил кота?</h1>
+      <div className='navbar'>
+        <div className='navbar__header'>Ты сегодня покормил кота?</div>
       </div>
-      <div className="container">
+      <div className='block'>
         <Card props={cardList.card1}/>
         <Card props={cardList.card2}/>
         <Card props={cardList.card3}/>

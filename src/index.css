@@ -3,5 +3,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-image: url("./img/Pattern.png");
+    width: 100vw;
 }
+
+
 
